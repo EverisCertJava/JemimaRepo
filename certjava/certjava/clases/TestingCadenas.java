@@ -22,7 +22,7 @@ public class TestingCadenas {
 		
 		StringBuilder cadena= new StringBuilder();
 		
-		for (int i=1;i<=100;i++){
+		for (int i=1;i<=10;i++){
 		cadena.append(i+"..");
 		System.out.println(cadena);
 		}
