@@ -7,8 +7,8 @@ public class Futbolista extends SeleccionFutbol {
 	
 	public Futbolista(int id, String nombre, String apellidos, int edad,int dorsal, String demarcacion){
 		super(id,nombre,apellidos,edad);
-		this.dorsal=dorsal;
-		this.demarcacion=demarcacion;
+		this.setDorsal(dorsal);
+		this.setDemarcacion(demarcacion);
 	}
 	// Constructor, getter y setter
 
@@ -24,5 +24,21 @@ public class Futbolista extends SeleccionFutbol {
 
 	public void entrevista() {
 		System.out.println("Da una Entrevista");
+	}
+
+	public int getDorsal() {
+		return dorsal;
+	}
+
+	public void setDorsal(int dorsal) {
+		this.dorsal = dorsal;
+	}
+
+	public String getDemarcacion() {
+		return demarcacion;
+	}
+
+	public void setDemarcacion(String demarcacion) {
+		this.demarcacion = demarcacion;
 	}
 }

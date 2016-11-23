@@ -5,7 +5,7 @@ public class Entrenador extends SeleccionFutbol {
 	private int idFederacion;
 	public Entrenador(int id, String nombre, String apellidos, int edad, int idFederacion){
 		super(id,nombre,apellidos,edad);
-		this.idFederacion=idFederacion;
+		this.setIdFederacion(idFederacion);
 	}
        // Constructor, getter y setter
 
@@ -22,6 +22,14 @@ public class Entrenador extends SeleccionFutbol {
 
 	public void planificarEntrenamiento() {
 		System.out.println("Planificar un Entrenamiento");
+	}
+
+	public int getIdFederacion() {
+		return idFederacion;
+	}
+
+	public void setIdFederacion(int idFederacion) {
+		this.idFederacion = idFederacion;
 	}
 }
 	
