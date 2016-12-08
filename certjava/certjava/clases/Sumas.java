@@ -1,18 +1,7 @@
-<<<<<<< HEAD
-package test;
+package mx.com.everis.certjava.clases;
 
-import building.House;
-=======
-package mx.com.everis.certjava.test;
-
-import mx.com.everis.certjava.clases.Runner;
-//import mx.com.everis.certjava.padre.Person;
->>>>>>> 6dfe732de117133fc555508c2cb48f6a190fc4ee
-
-public class Testing {
-
+public class Sumas {
 	public static void main(String[] args) {
-<<<<<<< HEAD
 		// TODO Auto-generated method stub
 		//House casa = new House();
 		//casa.doSomething();
@@ -41,19 +30,4 @@ public class Testing {
 		//System.out.println("Resultado= "+suma2);
 		
 	}
-	
-	
-=======
-		
-		for(String i: args)
-			System.out.println(i);
-		System.out.println(args.length);
-		//Runner r = new Runner();
-		Runner r = new Runner("A","B","C");
-		System.out.println(r);
-		//Person p = new Person();
-
-	}
-
->>>>>>> 6dfe732de117133fc555508c2cb48f6a190fc4ee
 }
